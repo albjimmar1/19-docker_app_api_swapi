@@ -18,6 +18,8 @@ docker-compose up
 ```
 
 Click to open the application [link](http://localhost:6969/)<br>
+Resource with the characters [People](http://localhost:8080/swapi/v1/people)<br>
+Resource with the planets [Planets](http://localhost:8080/swapi/v1/planets)<br>
 
 # Angular APP code and information
 
