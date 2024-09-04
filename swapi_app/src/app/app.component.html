@@ -1,0 +1,11 @@
+<app-header (spreadByName)="handleSpreadByName($event)" (spreadOrder)="handleSpreadOrder($event)" (spreadResource)="handleSpreadResource($event)"></app-header>
+
+<ng-container *ngIf="resource === '/people'">
+    <app-characters-table [characters]="characters" (spreadFollowing)="handleSpreadFollowing()" (spreadPrevious)="handleSpreadPrevious()"></app-characters-table>
+</ng-container>
+
+<ng-container *ngIf="resource === '/planets'">
+    <app-planets-table [planets]="planets" (spreadFollowing)="handleSpreadFollowing()" (spreadPrevious)="handleSpreadPrevious()"></app-planets-table>
+</ng-container>
+
+<router-outlet />

@@ -1,0 +1,16 @@
+services:
+  swapi_api:
+    container_name: swapi_api
+    image: alb-swapi-api:2.0.0
+    build: ./swapi
+    ports:
+      - 8080:8080
+
+  swapi_app:
+    container_name: swapi_app
+    image: alb-swapi-app:2.0.0
+    build: ./swapi_app
+    ports:
+      - 6969:4200
+
+  
