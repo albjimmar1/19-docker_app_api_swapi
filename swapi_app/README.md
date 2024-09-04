@@ -1,7 +1,8 @@
 # APP functionality
 
 App to display Star Wars characters and planets.<br>
-Dependency with API [swapi](https://github.com/albjimmar1/17-java_api_swapi)<br>
+Characters and planets can be searched by name and sorted by name or creation date.<br>
+Dependency with API.<br>
 
 # Technologies
 
@@ -13,10 +14,7 @@ CSS<br>
 # Installation
 
 ```sh
-git clone https://github.com/albjimmar1/18-angular_app_swapi.git
-```
-```sh
-cd 18-angular_app_swapi
+cd swapi_app
 ```
 ```sh
 ng serve
