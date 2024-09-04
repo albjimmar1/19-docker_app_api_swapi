@@ -1,6 +1,7 @@
 # Description
 
 Project to run docker images of an Angular application and a Spring Boot API.<br>
+Data about Star Wars characters and planets is provided through the API and displayed in the APP.<br>
 
 # Project execution
 
