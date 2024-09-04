@@ -1,4 +1,4 @@
-# APP functionality
+# Description
 
 Project to run docker images of an Angular application and a Spring Boot API.<br>
 
